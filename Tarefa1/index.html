@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Mototáxi Tapajós</title>
+    <link rel="icon" href="img/icon.jpg" />
+</head>
+
+<body>
+    <div class="banner">
+        <img id="logo" src="img/icon2.png" alt="logo">
+
+        <h1 >Baixe na Loja</h1>
+        <p>Clique e faça o download</p>
+
+        <div class="button_config">
+           <p>
+            <a href="https://play.google.com/store/apps/details?id=br.com.mototaxitapajos.passenger.taximachine">
+                <button class="btn-google"> 
+                Download na Google Play <i class="fab fa-google-play"></i>
+                </button>
+            </a>
+           </p> 
+           <p>
+            <a href="https://itunes.apple.com/br/app/taxi-cidade/id1276674186?l=pt&ls=1&mt=8">
+                <button class="btn-app"> 
+                      Download na App Store <i class="fab fa-apple"></i>
+                </button>
+           </p> 
+            </a>
+        </div>
+    </div>
+    <div>
+        <h1>Assista ao vídeo</h1>
+        <p>Saiba como utilizar</p>
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gx88Lxu-VAA" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+    </div>
+    
+    <footer>
+        <div class="rodape">
+            <div>
+                <h1>Seja um motorista parceiro!</h1>
+                <h2>Aumente a sua renda.</h2>
+            </div>
+            <div>
+                <button class="btn-cadastro">Quero me cadastrar para dirigir</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery.js"></script>
+    
+    <script>
+        $('.btn-cadastro').click(function () {
+        window.location = 'cadastro.html'
+      })
+    </script>
+
+</body>
+
+</html>
